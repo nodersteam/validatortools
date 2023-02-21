@@ -1,6 +1,10 @@
 # Active Peers Retriever
 A Go program that retrieves the active peers of a given RPC node and displays them in a comma-separated list.
 
+This code is a Go program that retrieves active peer information through an RPC node. It allows the user to input the RPC node address via the terminal. It then calls the retrieveActivePeers function to retrieve active peer information through an HTTP request to the specified RPC node.
+
+The retrieveActivePeers function returns a list of Peer structures containing the identifier and IP address of each peer. After receiving this information, it outputs a list of active peers separated by commas. If the IP address contains the string "tcp", it is not displayed. If the IP address contains invalid characters, it is also not displayed.
+
 ## Getting Started
 1. Clone this repository to your local machine
 `git clone https://github.com/nodersteam/validatortools`
