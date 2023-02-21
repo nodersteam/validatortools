@@ -10,6 +10,7 @@ The retrieveActivePeers function returns a list of Peer structures containing th
 `git clone https://github.com/nodersteam/validatortools`
 2. Go to the root directory of the repository `cd $HOME/validatortools/rpcpeerschecker` and run the program by typing `go run main.go` in your terminal.
 3. Enter the RPC node address when prompted.
+![Alt text](https://github.com/nodersteam/picture/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-02-21%20153907.png)
 
 ## Prerequisites
 - Go installed on your local machine.
