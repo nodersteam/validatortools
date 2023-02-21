@@ -21,7 +21,7 @@ func main() {
 	comma := ""
 	for _, peer := range peers {
 		if !strings.Contains(peer.IP, "tcp") {
-			if match, _ := regexp.MatchString("^[0-9.:]+$", peer.IP); match {
+			if match, _ := regexp.MatchString("^[0-9.:A-Za-Z]+$", peer.IP); match {
 				fmt.Print(comma + peer.ID + "@" + peer.IP)
 				comma = ","
 			}
